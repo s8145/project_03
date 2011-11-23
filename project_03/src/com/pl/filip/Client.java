@@ -1,5 +1,6 @@
 package com.pl.filip;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,14 +20,23 @@ public class Client {
 	}
 	
 	public List<Product> products = new ArrayList<Product>();
+	
+	public Product beProduct(Product p) throws Wyjatek {
+		if (products.indexOf(p) != -1)
+		{
+		return p;
+		}
+		else
+		throw new Wyjatek ("brak produktu w bazie");
 
+		}
+
+	
 	
 	public void printProducts(){
 		for(Product p : this.products){
 			p.printProduct();			
+		
 		}
 	}
-
-	
-
 }

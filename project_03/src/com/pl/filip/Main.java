@@ -15,7 +15,7 @@ public class Main {
 
 		Client cl = new Client("Pawel", "Nowak", products);
 
-		products.add(new Product("plyta dvd-rw", 2.99));   //DODAWANIE
+		products.add(new Product("slon", 2.99));   //DODAWANIE
 		products.add(new Product("plyta dvd", 1.99));
 		products.add(new Product("plyta cd", 0.99));	
 		
@@ -27,6 +27,8 @@ public class Main {
 		System.out.println("rozmiar:" +products.size());
 		
 		System.out.println(products.get(1));    //WYSZUKIWANIE
+	
+		
 	}
 
 }
