@@ -1,6 +1,7 @@
 package com.pl.filip;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class Client {
 	}
 	
 	public List<Product> products = new ArrayList<Product>();
-	private static Logger logger = Logger(Client.class);
+	static Logger logger = Logger.getLogger(Client.class);
 	
 	public Product beProduct(Product p) throws Wyjatek {
 		if (products.indexOf(p) != -1)
@@ -28,8 +29,10 @@ public class Client {
 		return p;
 		}
 		else
+			PropertyConfigurator.configure("logError.properties");
+			logger.error("brak produktu w bazie");
 		throw new Wyjatek ("brak produktu w bazie");
-		logger.info("brak produktu w bazie");
+
 		}
 
 	
