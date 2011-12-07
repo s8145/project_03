@@ -23,17 +23,14 @@ public class Client {
 	public List<Product> products = new ArrayList<Product>();
 	static Logger logger = Logger.getLogger(Client.class);
 	
-	public Product beProduct(Product p) throws Wyjatek {
-		if (products.indexOf(p) != -1)
-		{
-		return p;
-		}
-		else
-			PropertyConfigurator.configure("logError.properties");
-			logger.error("brak produktu w bazie");
-		throw new Wyjatek ("brak produktu w bazie");
-
-		}
+	void addProdukt(String nazwa, double cena) throws Wyjatek {
+		if(cena>999)                   //nie dodaje produktow powyzej 999zl
+			throw new Wyjatek(nazwa);
+		PropertyConfigurator.configure("log4j.properties");
+		logger.info("dodano produkt " + nazwa);
+		products.add(new Product(nazwa, cena));
+	}
+	
 
 	
 	
