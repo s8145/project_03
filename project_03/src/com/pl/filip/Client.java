@@ -9,6 +9,9 @@ import java.util.List;
 public class Client {
 	public String imie, nazwisko;
 
+	public Client(){
+
+	}
 	public Client(String imie, String nazwisko){
 		this.imie=imie;
 		this.nazwisko=nazwisko;

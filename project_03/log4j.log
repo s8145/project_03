@@ -2,3 +2,24 @@
 10   2011-12-07 19:31:36,995 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
 10   2011-12-07 19:31:36,995 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
 10   2011-12-07 19:31:36,995 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-07 20:23:25,607 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt pilot tv - uniwersalny
+7    2011-12-07 20:23:25,614 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
+9    2011-12-07 20:23:25,616 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
+11   2011-12-07 20:23:25,618 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-07 22:31:39,968 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt pilot tv - uniwersalny
+16   2011-12-07 22:31:39,984 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
+31   2011-12-07 22:31:39,999 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
+31   2011-12-07 22:31:39,999 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-07 22:32:27,533 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt pilot tv - uniwersalny
+15   2011-12-07 22:32:27,548 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
+15   2011-12-07 22:32:27,548 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
+15   2011-12-07 22:32:27,548 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-07 22:32:30,887 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt pilot tv - uniwersalny
+0    2011-12-07 22:32:30,887 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
+15   2011-12-07 22:32:30,902 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
+15   2011-12-07 22:32:30,902 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-07 22:32:45,285 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt pilot tv - uniwersalny
+16   2011-12-07 22:32:45,301 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta cd
+16   2011-12-07 22:32:45,301 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt plyta dvd
+16   2011-12-07 22:32:45,301 [main] (Client.java:30) INFO  com.pl.filip.Client  - dodano produkt kabel USB 2.0 - 2m
+0    2011-12-08 09:11:22,381 [main] (Client.java:33) INFO  com.pl.filip.Client  - dodano produkt tester
